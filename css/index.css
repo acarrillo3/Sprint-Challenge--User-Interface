@@ -161,7 +161,7 @@ nav {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
@@ -197,8 +197,9 @@ footer nav a {
 }
 
 .aBox {
-    margin 2%;
-    border-bottom: 2px dotted grey;;
+    margin: 2%;
+    border-bottom: 2px dotted grey;
+    padding-bottom: 4px;
 }
 
 /* stretch */
