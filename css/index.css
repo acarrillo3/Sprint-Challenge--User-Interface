@@ -65,7 +65,22 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* Header style starts here */
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:20px;
+}
+.titleimg {
+    width: 100%;
+    margin: 20px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,18 +119,49 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/*boxes color start here*/
+.one {
+    background: teal;
+}
+.two {
+    background: gold;
+}
+.three {
+    background: cadetblue;
+}
+.four {
+    background: coral;
+}
+.five {
+    background: crimson;
+}
+.six {
+    background: forestgreen;
+}
+.seven {
+    background: darkorchid;
+}
+.eight {
+    background: hotpink;
+}
+.nine {
+    background: indigo;
+}
+.ten {
+    background: dodgerblue;
+}
+/*boxes-color end here*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
@@ -143,4 +189,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* new css for about*/
+.about{
+    margin:2%;
+    border-bottom: 2px dotted grey;
+}
+
+.aBox {
+    margin: 2%;
+    border-bottom: 2px dotted grey;
+    padding-bottom: 4px;
+}
+
+/* stretch */
+nav >a:hover {
+	background-color: grey;
+	  color: white;
+	  border: 1px solid blue;
 }
