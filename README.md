@@ -34,11 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is what gives meaning or define your text into HTML. For instance, <h1> for important titles.
+Semantic HTML is what gives meaning or define your text into HTML. For instance,```<h1>``` for important titles.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Display: Inline; means that the element container will be styled to be in one line (a.k.a no line break) which you can give it a width and a hieght for the whole line(ex:<span>). While Display:block; for each element it will start on a new line such as <p> tags.
+Display: Inline; means that the element container will be styled to be in one line (a.k.a no line break) which you can give it a width and a hieght for the whole line(ex:```<span>```). While Display:block; for each element it will start on a new line such as ```<p>``` tags.
 
 3. What are the 4 areas of the box model?
 
