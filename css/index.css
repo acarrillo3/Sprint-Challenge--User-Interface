@@ -190,3 +190,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* new css for about*/
+.about{
+    margin:2%;
+    border-bottom: 2px dotted grey;
+}
+
+.aBox {
+    margin 2%;
+    border-bottom: 2px dotted grey;;
+}
+
+/* stretch */
+nav >a:hover {
+	background-color: grey;
+	  color: white;
+	  border: 1px solid blue;
+}
